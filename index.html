@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Bootstrap CDN start from here-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- End of Bootstrap CDN from here -->
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project</title>
+  </head>
+
+  <body>
+    <div class="container-fluid" id="demo">
+      <nav class="navbar navbar-expand-lg navbar-light" id="navbarId">
+        <a class="navbar-brand" style="color: #da9903" href="#"
+          ><img
+            src="17.png"
+            alt="logo"
+            style="width: 50px; height: 50px"
+            class="rounded-circle"
+        /></a>
+        <button
+          style="color: white"
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/" style="color: white">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: white">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: white">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://therezzak.blogspot.com/"
+                style="color: white"
+                >Blog</a
+              >
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+      <br /><br />
+      <br /><br />
+
+      <div class="row">
+        <div class="col-lg-8 col-sm-12 col-md-6 mb-2">
+          <div>
+            <h3
+              style="
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+              "
+            >
+              Web Design &
+            </h3>
+          </div>
+          <div>
+            <h4
+              style="
+                font-size: 3rem;
+                font-family: 'Times New Roman', Times, serif;
+                color: rgb(247, 142, 5);
+                font-weight: bold;
+              "
+            >
+              Developement
+            </h4>
+          </div>
+          <div>
+            <h3
+              style="
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+              "
+            >
+              Course
+            </h3>
+            <p style="color: white; font-family: 'Roboto', sans-serif">
+              Web design refers to the design of websites that are displayed on
+              the internet. It usually refers to the user experience aspects of
+              website development rather than software development.
+            </p>
+          </div>
+
+          <button
+            type="button"
+            class="btn btn-lg"
+            style="
+              font-family: Roboto, Helvetica, sans-serif;
+              font-weight: bold;
+              color: rgb(24, 21, 21);
+              background-color: #da9903;
+              width: 150px;
+              height: 45px;
+            "
+          >
+            Join us!
+          </button>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 col-md-6">
+          <div
+            style="
+              height: 370px;
+              width: 270px;
+              background-color: rgb(20, 20, 20);
+              box-sizing: border-box;
+              box-shadow: 3px 3px 2px rgba(18, 89, 131, 0.2) 2px 2px 3px
+                rgba(155, 135, 21, 0.4);
+              border: 4px;
+              border-radius: 10px;
+            "
+          >
+            <div class="text-center">
+              <button
+                id="loginButton"
+                class="btn btn-lg m-3 p-1 text-center"
+                style="width: 240px; height: 40px; color: #da9903"
+              >
+                Login Here
+              </button>
+            </div>
+            <div class="text-center p-2">
+              <input
+                type="email"
+                class="inputBox"
+                placeholder="Enter Email Here"
+                required
+              />
+            </div>
+            <div class="text-center p-2">
+              <input
+                type="password"
+                class="inputBox"
+                placeholder="Enter Password Here"
+                required
+              />
+            </div>
+            <div class="text-center">
+              <button class="btn btn-warning p-2 m-2" style="width: 240px">
+                Login
+              </button>
+            </div>
+            <p class="text-center" style="color: rgb(207, 204, 204)">
+              Don't have an account?
+            </p>
+            <p class="text-center" style="color: rgb(207, 204, 204)">
+              <a href="#" style="text-decoration: none">Sign Up</a> here
+            </p>
+            <p style="color: rgb(207, 204, 204); text-align: center">
+              Log in with
+            </p>
+            <div class="text-center m-3" style="color: white">
+              <i class="fab fa-facebook" style="padding: 2px"></i>
+              <i class="fab fa-instagram" style="padding: 2px"></i>
+              <i class="fab fa-google" style="padding: 2px"></i>
+              <i class="fab fa-twitter" style="padding: 2px"></i>
+              <i class="fab fa-skype" style="padding: 2px"></i>
+            </div>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <footer id="FooterStyle">
+      <div
+        class="row"
+        style="color: rgb(156, 156, 156); font-family: 'Roboto', sans-serif"
+      >
+        <div class="col-sm-12 col-lg-4">
+          <h2>About</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            impedit quo magni perspiciatis. Itaque asperiores accusamus impedit,
+            magnam alias corporis!
+          </p>
+          <div class="text-left" style="color: white">
+            <i class="fab fa-facebook" style="padding: 5px"></i>
+            <i class="fab fa-instagram" style="padding: 5px"></i>
+            <i class="fab fa-twitter" style="padding: 5px"></i>
+            <i class="fab fa-youtube" style="padding: 5px"></i>
+            <i class="fab fa-linkedin" style="padding: 5px"></i>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <h2>Address</h2>
+          <div>
+            <p><i class="fas fa-map-marker-alt"></i> Lakhipur,India</p>
+          </div>
+          <div>
+            <p><i class="fas fa-phone-alt"></i>+916003249934</p>
+          </div>
+          <div>
+            <p><i class="fas fa-envelope"></i> jagroj920@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <h2>Contact</h2>
+          <form action="">
+            <div>
+              <input
+                class="inputBox"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email *"
+                style="width: 100%; border-bottom: 1px solid rgb(107, 104, 104)"
+                required
+              />
+            </div>
+            <div>
+              <textarea
+                class="mt-2 inputBox"
+                name="message"
+                id="message"
+                cols="50"
+                rows="4"
+                placeholder="Message"
+                style="border: 1px solid rgb(88, 87, 87)"
+              ></textarea>
+            </div>
+            <div class="text-right">
+              <button class="btn btn-warning btn-lg" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br />
+      <div class="footer-bottom">
+        <p>&copy Copyright 2021 RezZak, designed by <span>RezZak</span></p>
+      </div>
+    </footer>
+
+    <!-- JS CDN Start from here  -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS CDN ends from here -->
+  </body>
+</html>
